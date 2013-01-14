@@ -1,10 +1,13 @@
-
+	<div class="row">
+	    	<footer class="span12">
+	    		<div class="pull-right">&copy; Nilsine & ULCO</div>
+	    	</footer>
     </div> <!-- /container -->
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <?php Loader::element('header_required');?>
+    <?php Loader::element('footer_required');?>
     <script src="assets/js/bootstrap-transition.js"></script>
     <script src="assets/js/bootstrap-alert.js"></script>
     <script src="assets/js/bootstrap-modal.js"></script>
@@ -20,6 +23,3 @@
 
   </body>
 </html>
-
-
-?>
