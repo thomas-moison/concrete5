@@ -39,5 +39,21 @@
 				</div>
 			</div>
 </div>
-</div>			 
+</div>	
+
+<div class="row">
+<div class="span12">
+		        <div class="hero-unit">
+				  <h2>Bas taille 12</h2>
+				  
+				  
+				<a class="btn btn-primary btn-large">Plus d'infos</a>
+				<?php
+					$a= new Area('Bas');
+					$a->display($c);
+				?>
+				</div>
+			</div>
+</div>
+		    		 
 <?php $this->inc('elements/footer.php');?>
